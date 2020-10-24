@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Canvas</title>
+  </head>
+  <body>
+    <canvas id="canvas" width="300" height="300" style="border:1px solid #d3d3d3;"></canvas>
+
+    <script>
+      var c = document.getElementById("canvas");
+      var ctx = c.getContext("2d");
+      ctx.moveTo(0,0);
+      ctx.lineTo(200,100);
+      ctx.stroke();
+    </script>
+
+  </body>
+</html>
