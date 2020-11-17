@@ -1,0 +1,18 @@
+p{
+  marginleft: 20px;
+  color: white;
+}
+
+body {background-color:blue;}
+
+
+/* Ini adalah contoh Selector dan Class dan ID*/
+
+.kuning{
+  color: yellow;
+}
+
+
+#abu{
+  color:grey;
+}
